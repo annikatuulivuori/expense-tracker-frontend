@@ -19,7 +19,6 @@ const ExpenseList: React.FC = () => {
     fetchExpenses()
   }, [])
 
-
   return (
     <div>
       <h2>All expenses: </h2>

@@ -38,11 +38,7 @@ const expenseService = {
       console.log('Error in adding new expense: ', error)
       throw error
     }
-
-
   }
 }
-
-
 
 export default expenseService
