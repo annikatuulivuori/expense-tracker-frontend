@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import type { ExpenseProps } from './Expense';
+import type { ExpenseProps } from './Expense'
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.css'
 
 interface ExpenseFormProps {
   onExpenseSubmit: (expense: ExpenseProps) => void
@@ -38,7 +40,7 @@ const ExpenseForm: React.FC<ExpenseFormProps> = ({ onExpenseSubmit }) => {
         Amount:
         <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} />
       </label>
-      <button type="submit">Add Expense</button>
+      <Button variant="outline-primary" type="submit">Add Expense</Button>
     </form>
   )
 }
