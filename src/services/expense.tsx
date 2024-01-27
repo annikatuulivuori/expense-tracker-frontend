@@ -20,6 +20,26 @@ const expenseService = {
       console.log('Error fetching expenses: ', error)
       throw error
     }
+  },
+
+  addExpense: async (newExpense: Expense): Promise<void> => {
+    try {
+      const response = await fetch(`${baseUrl}/addExpense`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newExpense),
+      })
+      if (!response.ok) {
+        throw new Error('Failed to add expense')
+      }
+    } catch (error) {
+      console.log('Error in adding new expense: ', error)
+      throw error
+    }
+
+
   }
 }
 
