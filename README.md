@@ -17,9 +17,9 @@ All expenses will be stored in a list within backend. As of right now, the expen
 
 Before starting this project, I knew I had goals to learn new skills. Here is a list of detailed list of what I wanted to achieve:
 
-- learn TypeScript syntac, concepts and best practices
+- learn TypeScript syntax, concepts and best practices
 - deepen understanding of React.js features
-- learn to ingegrate backend (Java Springboot) to fetch data
+- learn to integrate backend (Java Springboot) to fetch data
 - try bootstrap
 
 **Did I achieve these goals?** Short answer is yes. Long asnwer is that this project is not perfect - and it shows. 
