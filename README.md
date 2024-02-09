@@ -32,4 +32,6 @@ Before starting this project, I knew I had goals to learn new skills. Here is a 
 
 ## 🖼️ What it looks like
 
+🔮 Take a look at [expense-tracker-backend](https://github.com/annikatuulivuori/expense-tracker-backend/) to see the backend.
+
 ![what-it-looks-like](https://github.com/annikatuulivuori/expense-tracker-frontend/assets/99658607/3ff5a9b1-90f0-4b5c-876e-60adee206ff7)
